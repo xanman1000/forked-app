@@ -1,0 +1,7 @@
+# Cursor Development Rules for Forked App
+
+## Principle: Build, Don't Defer
+
+- **Prioritize Implementation:** When adding features or components (like UI elements, authentication methods, data fetching), install necessary libraries and implement the functionality directly rather than using placeholders or TODOs.
+- **Avoid Placeholders:** Only use placeholders if a required external dependency or subsequent step is absolutely blocking, and clearly document the immediate next step needed to replace the placeholder.
+- **Goal:** Ensure each step results in working, integrated code, minimizing deferred work and maintaining momentum. 

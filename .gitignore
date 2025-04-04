@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Expo
+.expo/
+*.jks
+*.p12
+*.key
+*.mobileprovision
+*.orig
+
+# Android
+android/app/build/
+android/.gradle/
+android/gradle/wrapper/gradle-wrapper.jar
+android/gradlew
+android/gradlew.bat
+
+# iOS
+ios/build/
+ios/Pods/
+*.xcworkspace
+*.xcuserdatad
+
+# macOS
+*.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Env variables
+.env*
+!env.example
+
+# Logs
+logs/
+*.log
+
+# Misc
+*.cer
+*.pem
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/local
+.pnp.*
